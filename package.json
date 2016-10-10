@@ -4,9 +4,10 @@
   "description": "Network Layer for React Relay and Express (Batch Queries, AuthToken, Logging, Retry)",
   "files": [
     "es",
-    "lib"
+    "lib",
+    "src"
   ],
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es",
